@@ -3,15 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px 0;
-}
-
-.container__navbar {
-    display: flex;
-    align-items: center;
-    width: 70%;
-    justify-content: center;
-    gap: 90px;
+    padding: 1.5em 6em;
 }
 
 .cabecalho__imagem {
