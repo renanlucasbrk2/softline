@@ -1,4 +1,9 @@
+.container__banner {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .banner__imagem {
-    width: 100vw;
+    width: 100%;
     height: 500px;
 } 
