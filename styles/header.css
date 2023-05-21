@@ -3,11 +3,11 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 1.5em 6em;
 }
 
 .cabecalho__imagem {
     width: 7%;
+    margin-left: 4em;
 }
 
 .cabecalho__navigation {
@@ -18,4 +18,8 @@
 .cabecalho__navigation__item {
     text-decoration: none;
     color: var(--cor-cinza-escuro);
+}
+
+.cabecalho__contatos {
+    margin-right: 3em;
 }
