@@ -4,10 +4,12 @@
     --cor-branco: #ffffff;
     --fonte-principal: 'Poppins', sans-serif;
     --cor-preto: #000000;
+    --cor-cinza: rgb(240, 240, 240);
+    --cor-cinza-escuro: rgb(122, 121, 121);
 }
 
 body {
-    background-color: var(--cor-branco);
+    background-color: var(--cor-cinza);
     font-size: 16px;
     font-weight: 400;
     font-family: var(--fonte-principal);
