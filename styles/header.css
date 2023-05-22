@@ -20,6 +20,10 @@
     text-decoration: none;
     color: var(--cor-cinza-escuro);
 }
+.cabecalho__navigation__item:hover {
+    color: burlywood;
+    text-decoration: underline;
+}
 
 .cabecalho__contatos {
     margin-right: 3em;
