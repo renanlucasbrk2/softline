@@ -1,17 +1,17 @@
 @import url("styles/header.css");
-@import url("styles/banner.css");
 
 :root {
-    --cor-branco: #ffffff;
-    --fonte-principal: 'Poppins', sans-serif;
-    --cor-preto: #000000;
-    --cor-cinza: rgb(240, 240, 240);
-    --cor-cinza-escuro: rgb(122, 121, 121);
+    --cor-de-fundo: #cae0c8;
+    --cor-fonte-principal: #02fcf3;
+    --fonte: 'Poppins', sans-serif;
+    --cor-cabecalho: #a9e4cf;
+    --fonte-logo: 'Bebas Neue', sans-serif;
 }
 
 body {
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-de-fundo);
     font-size: 16px;
     font-weight: 400;
-    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-principal);
+    font-family: var(--fonte);
 }

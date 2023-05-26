@@ -1,30 +1,35 @@
-.container__cabecalho {
+.cabecalho {
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+}
+
+.cabecalho__logo {
+    text-decoration: none;
+}
+
+.cabecalho__logo h1 {
+    font-family: var(--fonte-logo);
+    font-size: 45px;
+}
+
+.cabecalho__direita {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 1em 0;
 }
 
-.cabecalho__imagem {
-    width: 7%;
-    margin-left: 4em;
+.cabecalho__pesquisa {
+    width: 342px;
+    padding: 10px 15px;
+    border-radius: 12px;
 }
 
-.cabecalho__navigation {
-    display: flex;
-    gap: 40px;
-}
-
-.cabecalho__navigation__item {
-    text-decoration: none;
-    color: var(--cor-cinza-escuro);
-}
-.cabecalho__navigation__item:hover {
-    color: burlywood;
-    text-decoration: underline;
-}
-
-.cabecalho__contatos {
-    margin-right: 3em;
+.cabecalho__cesta {
+    background-image: url("../img/cesta.svg");
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin: 0.5em 1em;
 }
