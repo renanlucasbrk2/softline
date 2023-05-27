@@ -1,11 +1,12 @@
 @import url("styles/header.css");
 
 :root {
-    --cor-de-fundo: #cae0c8;
+    --cor-de-fundo: #ffffff;
     --cor-fonte-principal: #02fcf3;
     --fonte: 'Poppins', sans-serif;
     --cor-cabecalho: #a9e4cf;
     --fonte-logo: 'Bebas Neue', sans-serif;
+    --cor-logo: #000000;
 }
 
 body {

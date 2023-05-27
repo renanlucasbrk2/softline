@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 3em;
+    padding: 2em 6em;
 }
 
 .cabecalho__logo {
@@ -13,6 +13,8 @@
 .cabecalho__logo h1 {
     font-family: var(--fonte-logo);
     font-size: 45px;
+    font-weight: bold;
+    color: var(--cor-logo);
 }
 
 .cabecalho__direita {
@@ -22,16 +24,31 @@
 
 .cabecalho__pesquisa {
     width: 342px;
-    padding: 10px 15px;
+    padding: 8px 15px;
     border-radius: 12px;
     border: none;
     outline: none;
+    margin: 0 2em;
+    font-size: 19px;
+}
+
+.cabecalho__pesquisa::placeholder {
+    background-image: url("../img/Lupa.png");
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 98%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
 }
 
 .cabecalho__cesta {
     background-image: url("../img/cesta.svg");
-    width: 35px;
-    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
     display: inline-block;
-    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+    margin: 4px;
 }
