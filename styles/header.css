@@ -36,10 +36,10 @@
     background-image: url("../img/Lupa.png");
     background-repeat: no-repeat;
     background-size: 17px;
-    background-position: 98%;
+    background-position: 98% 50%;
     font-size: 20px;
     text-align: center;
-    color: black;
+    color: var(--cor-logo);
 }
 
 .cabecalho__cesta {
