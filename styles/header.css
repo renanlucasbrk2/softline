@@ -38,8 +38,8 @@
     background-size: 17px;
     background-position: 98% 50%;
     font-size: 20px;
-    text-align: center;
-    color: var(--cor-logo);
+    text-align: inherit;
+    color: var(--cor-cinza);
 }
 
 .cabecalho__cesta {
