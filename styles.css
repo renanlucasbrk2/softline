@@ -1,12 +1,14 @@
 @import url("styles/header.css");
+@import url("styles/produtos.css");
+@import url("styles/rodape.css");
 
 :root {
     --cor-de-fundo: #ffffff;
-    --cor-fonte-principal: #02fcf3;
     --fonte: 'Poppins', sans-serif;
     --cor-cabecalho: #a9e4cf;
     --fonte-logo: 'Bebas Neue', sans-serif;
     --cor-logo: #000000;
+    --cor-cinza: #7d7769;
 }
 
 body {

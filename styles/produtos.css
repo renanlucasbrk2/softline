@@ -1,0 +1,34 @@
+.produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3em 10em;
+    gap: 43px;
+}
+
+.produto__item {
+    width: 20%;
+    text-align: center;
+}
+
+.produto__imagem {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.produto__nome {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 13px;
+    color: var(--cor-logo);
+}
+
+.produto__descricao {
+    color: var(--cor-cinza);
+    margin: 0.3em 0;
+}
+
+.produto__preco {
+    font-size: 18px;
+    font-weight: 500;
+}
