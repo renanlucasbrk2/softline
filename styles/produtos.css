@@ -9,11 +9,22 @@
 .produto__item {
     width: 20%;
     text-align: center;
+    transition: transform 1s;
+}
+
+.produto__item:hover {
+    transform: scale(1.1);
+}
+
+.produto__item:hover img {
+    box-shadow: -4px 4px 12px var(--cor-logo);
 }
 
 .produto__imagem {
     width: 100%;
     border-radius: 12px;
+    cursor: pointer;
+    transition: box-shadow 1s;
 }
 
 .produto__nome {
